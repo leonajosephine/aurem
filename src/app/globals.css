@@ -26,7 +26,7 @@ body {
   background: var(--bg);
   color: var(--text);
 
-  font-family: "Inter", sans-serif;
+  font-family: "Manrope", sans-serif;
 
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -56,4 +56,12 @@ img {
 
 ::selection {
   background: rgba(198, 164, 108, 0.2);
+}
+
+.font-editorial {
+  font-family: "Cormorant Garamond", serif;
+}
+
+.font-brand {
+  font-family: "Bevan", serif;
 }

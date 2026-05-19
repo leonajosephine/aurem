@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 
-import "@fontsource/inter";
+import "@fontsource/manrope";
 import "@fontsource/cormorant-garamond";
+import "@fontsource/bevan";
 
 import "./globals.css";
 
