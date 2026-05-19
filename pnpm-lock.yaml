@@ -8,10 +8,16 @@ importers:
 
   .:
     dependencies:
+      '@fontsource/bevan':
+        specifier: ^5.2.7
+        version: 5.2.7
       '@fontsource/cormorant-garamond':
         specifier: ^5.2.11
         version: 5.2.11
       '@fontsource/inter':
+        specifier: ^5.2.8
+        version: 5.2.8
+      '@fontsource/manrope':
         specifier: ^5.2.8
         version: 5.2.8
       clsx:
@@ -181,11 +187,17 @@ packages:
     resolution: {integrity: sha512-43/qtrDUokr7LJqoF2c3+RInu/t4zfrpYdoSDfYyhg52rwLV6TnOvdG4fXm7IkSB3wErkcmJS9iEhjVtOSEjjA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
+  '@fontsource/bevan@5.2.7':
+    resolution: {integrity: sha512-fJYcvVGlKE6lQZSn76pqTQJ0uIT4XVlWG55g8C7PfdC2W4MfN4Y5AcNMlzYI0hJNAJmvNvw4BkqyfS6/2uaz9Q==}
+
   '@fontsource/cormorant-garamond@5.2.11':
     resolution: {integrity: sha512-5JjpN023lhA5soijgVT0BdRGzmlijm402ppjccMd6h+vRE0mX2lJnE+41UPfnlidrkV9/rCo1mf58WZlHnB0CA==}
 
   '@fontsource/inter@5.2.8':
     resolution: {integrity: sha512-P6r5WnJoKiNVV+zvW2xM13gNdFhAEpQ9dQJHt3naLvfg+LkF2ldgSLiF4T41lf1SQCM9QmkqPTn4TH568IRagg==}
+
+  '@fontsource/manrope@5.2.8':
+    resolution: {integrity: sha512-gJHJmcuUk7qWcNCfcAri/DJQtXtBYqi9yKratr4jXhSo0I3xUtNNKI+igQIcw5c+m95g0vounk8ZnX/kb8o0TA==}
 
   '@humanfs/core@0.19.2':
     resolution: {integrity: sha512-UhXNm+CFMWcbChXywFwkmhqjs3PRCmcSa/hfBgLIb7oQ5HNb1wS0icWsGtSAUNgefHeI+eBrA8I1fxmbHsGdvA==}
@@ -2184,9 +2196,13 @@ snapshots:
       '@eslint/core': 0.17.0
       levn: 0.4.1
 
+  '@fontsource/bevan@5.2.7': {}
+
   '@fontsource/cormorant-garamond@5.2.11': {}
 
   '@fontsource/inter@5.2.8': {}
+
+  '@fontsource/manrope@5.2.8': {}
 
   '@humanfs/core@0.19.2':
     dependencies:
