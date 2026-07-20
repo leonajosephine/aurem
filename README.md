@@ -1,8 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Aurem
 
-## Getting Started
+Aurem is a web application built with [Next.js](https://nextjs.org), designed for fast development, great performance, and easy deployment.
 
-First, run the development server:
+## ✨ Features
+
+- Built with Next.js App Router
+- Fast local development with hot reload
+- TypeScript-ready structure
+- Easy deployment to Vercel or any Node-compatible host
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have one of the following installed:
+
+- [Node.js](https://nodejs.org/) (recommended: latest LTS)
+- npm / yarn / pnpm / bun
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/leonajosephine/aurem.git
+   ```
+
+2. Navigate into the project folder:
+   ```bash
+   cd aurem
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn
+   # or
+   pnpm install
+   # or
+   bun install
+   ```
+
+### Run the development server
 
 ```bash
 npm run dev
@@ -14,23 +53,58 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧱 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```text
+aurem/
+├─ app/              # App Router pages and layouts
+├─ public/           # Static assets
+├─ styles/           # Global/project styles (if applicable)
+├─ package.json      # Scripts and dependencies
+└─ README.md
+```
 
-## Learn More
+## 🛠️ Available Scripts
 
-To learn more about Next.js, take a look at the following resources:
+- `dev` – Start development server
+- `build` – Build for production
+- `start` – Start production server
+- `lint` – Run lint checks
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Run a script with:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run <script-name>
+```
 
-## Deploy on Vercel
+## 🌐 Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+You can deploy this project easily with [Vercel](https://vercel.com/new), the platform created by the Next.js team.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+For other platforms, build first:
+
+```bash
+npm run build
+npm run start
+```
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/your-feature`
+3. Commit your changes
+4. Push to your branch
+5. Open a Pull Request
+
+## 📄 License
+
+Add your preferred license here (for example, MIT).
+
+## 🙌 Acknowledgements
+
+- [Next.js](https://nextjs.org/)
+- [Vercel](https://vercel.com/)
